@@ -1,11 +1,5 @@
-1. read excel file
-
-2. convert pandas to_dict
-
-3.key - role 
-values - description , qualification and requirements
-
-4. RAG extraction
-
-5. store in SQLite database 
-role | description | qualification | requirements
+JD → JD Agent → SQLite ← Resume Agent ← Resumes
+         ↓                        ↓
+     Matching Agent ←───────────→
+         ↓
+   Shortlisting Agent → Interview Scheduler → Email
